@@ -5,6 +5,7 @@ import Avatar from '../components/Avatar';
 import { motion } from "framer-motion";
 import { fadeIn } from '../variants';
 import ParticlesContainer from "../components/ParticlesContainer";
+import BackgroundComponent from "../components/BckgroundComponent";
 
 const Home = () => {
   return (

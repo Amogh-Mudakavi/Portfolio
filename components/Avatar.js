@@ -11,7 +11,7 @@ const Avatar = () => {
     src={`./coder.png?${new Date().getTime()}`}
     width={737} 
     height={678} 
-    alt="Coder Image"
+    alt=""
     className="translate-z-0 w-full h-full"
 />
 

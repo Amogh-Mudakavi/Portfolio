@@ -5,19 +5,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/CN_TUNNEL.jpeg',
+          path: './CN_TUNNEL.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb2.jpeg',
+          path: './thumb2.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb3.jpeg',
+          path: './thumb3.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb4.jpeg',
+          path: './thumb4.jpeg',
         },
       ],
     },
@@ -25,19 +25,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb5.jpeg',
+          path: './thumb5.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb6.jpeg',
+          path: './thumb6.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb7.jpeg',
+          path: './thumb7.jpeg',
         },
         {
           title: 'title',
-          path: '/thumb8.jpeg',
+          path: './thumb8.jpeg',
         },
       ],
     },

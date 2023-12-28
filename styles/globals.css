@@ -59,8 +59,5 @@
 .bg_site{
   background-image: url("../public/site-bg.svg");
 }
-@media (min-width: 1200px) {
-  .xl\:bg-explosion {
-      background-image: url("./bg-explosion.png");
-  }
-  
+
+

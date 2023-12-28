@@ -52,6 +52,10 @@
     .xl\:bg-explosion {
         background-image: url("/bg-explosion.png");
     }
+    
 }
 }
 
+.bg_circleStar{
+  background-image: url("../circle-star.svg");
+}

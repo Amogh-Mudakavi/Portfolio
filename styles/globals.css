@@ -48,10 +48,14 @@
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
-  @media (min-width: 1200px) {
-    .xl\:bg-explosion {
-        background-image: url("/bg-explosion.png");
-    }
-}
+
 }
 
+
+.bg_circleStar{
+  background-image: url("../circle-star.svg");
+}
+
+.bg_site{
+  background-image: url("../public/site-bg.svg");
+}

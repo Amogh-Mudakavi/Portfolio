@@ -5,7 +5,6 @@ import Avatar from '../components/Avatar';
 import { motion } from "framer-motion";
 import { fadeIn } from '../variants';
 import ParticlesContainer from "../components/ParticlesContainer";
-import BackgroundComponent from "../components/BckgroundComponent";
 
 const Home = () => {
   return (
@@ -17,9 +16,13 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 xl:mr-32 mb-8 mt-6" // Added xl:mr-32
+            className="h1 xl:mr-32 mb-8 mt-6 text-2xl pt-10 md:text-6xl" // Added xl:mr-32
           >
-            Hey! <br /> I&apos;m {' '}
+            <div className="md:py-4">
+
+            Hey!
+            </div>
+            I&apos;m {' '}
             <span className="text-accent">Amogh Mudakavi.</span>
           </motion.h1>
           <motion.p
@@ -27,7 +30,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8"
           >
             I am currently a student majoring in Electronics with a minor 
             in Computer Science at <span className="text-accent">PES UNIVERSITY</span>.My academic focus is on 
@@ -36,7 +39,7 @@ const Home = () => {
           </motion.p>
 
           {/* btn wrapper */}
-          <div className="relative mb-16">
+          <div className="relative mb-24">
             <motion.div
               variants={fadeIn('down', 0.4)}
               initial="hidden"
@@ -54,7 +57,8 @@ const Home = () => {
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
 
         {/* bg-img */}
-        <BackgroundComponent/>
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
+        </div>
 
         {/* particles */}
         <ParticlesContainer/>

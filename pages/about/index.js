@@ -77,7 +77,7 @@ const aboutData = [
     title: "Certification",
     info: [
       {
-        title: "Web Development - CISCO Thinqbator 2022",
+        title: "Web Development - CISCO Thinqbator ",
         stage: "2022",
       },
       {
@@ -142,7 +142,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] hidden md:block mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             In the past few years, I delved into various projects involving both
             electronics and computer science. This helped me build a
@@ -215,13 +215,13 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                  className=" flex flex-col justify-center text-center md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
                   {/* title */}
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
-                  <div className="flex gap-x-4">
+                  <div className="text-center">{item.stage}</div>
+                  <div className="flex gap-x-4 text-center">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
                       return <div 
@@ -232,7 +232,7 @@ const About = () => {
                 </div>
               );
             })}
-            <a href="/FINAL_RESUME_AMOGH.pdf" download>
+            <a href="https://drive.google.com/file/d/1kQEi7ENSV6G8Ktc3n4b9qUDXV2doUVVM/view?usp=sharing" target="_blank" download>
               <button className="bg-red-500 hover:bg-white hover:text-red-500 w-auto text-white px-9 py-2 shadow-md text-lg cursor-pointer transition-all duration-500 font-medium border-3 border-transparent relative z-10 mt-auto self-start  ">
                 Download CV
               </button>

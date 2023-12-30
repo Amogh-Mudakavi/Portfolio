@@ -8,7 +8,7 @@ import { fadeIn } from '../../variants';
 
 const Work = () =>{
   return(
-    <div className='h-full bg-primary/30 py-36 flex-center'>
+    <div className='h-full bg-primary/30 md:py-36 py-24 flex-center'>
       <Circles/>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8'>
@@ -18,7 +18,7 @@ const Work = () =>{
             initial='hidden'
             animate = 'show'
             exit='hidden'
-            className='h2 xl:mt-12'
+            className='md:h2 font-bold text-3xl xl:mt-12'
             >
               My work <span className='text-accent'></span>
               
@@ -28,7 +28,7 @@ const Work = () =>{
             initial= 'hidden'
             animate= 'show'
             exit = 'hidden'
-            className='mb-4 max-w-[400px] mx-auto lg:max-0'
+            className='md:mb-4   max-w-[400px] mx-auto lg:max-0'
             >
 
 I am engaged in projects that span various fields such as VLSI, computer networks, data structures, and web development.

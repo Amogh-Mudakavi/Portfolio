@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# Study and then clone dont just copy.

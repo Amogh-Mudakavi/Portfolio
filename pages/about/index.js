@@ -64,13 +64,12 @@ const aboutData = [
         stage: "2018-2020",
       },
       {
-        title: "PES UNIVERSITY",
+        title: "PES UNIVERSITY-Btech-ECE",
         stage: "2020-2024",
       },
-      {
-        title: "Btech",
-        stage: "in Electronics and Communication Engineering",
-      },
+      
+    ],
+  },
     ],
   },
   {

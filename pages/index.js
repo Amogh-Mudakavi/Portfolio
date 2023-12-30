@@ -5,19 +5,18 @@ import Avatar from '../components/Avatar';
 import { motion } from "framer-motion";
 import { fadeIn } from '../variants';
 import ParticlesContainer from "../components/ParticlesContainer";
-import b from "../public/bg-explosion.png"
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full pt-20">
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+    <div className="bg-primary/60 h-full md:pt-20 pt-5">
+      <div className="w-full h-full  bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn('down', 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 xl:mr-32 mb-8 mt-6 text-2xl pt-10 md:text-6xl" // Added xl:mr-32
+            className="md:h1 xl:mr-32 md:mb-8 md:mt-6 text-2xl md:pt-10 mt-2 mb-4 md:text-6xl" // Added xl:mr-32
           >
             <div className="md:py-4">
 
@@ -31,7 +30,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8"
+            className=" mb-2 max-w-sm xl:max-w-xl mx-auto xl:mx-0 md:mb-4"
           >
             I am currently a student majoring in Electronics with a minor 
             in Computer Science at <span className="text-accent">PES UNIVERSITY</span>.My academic focus is on 

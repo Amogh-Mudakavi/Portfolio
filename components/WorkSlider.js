@@ -74,7 +74,7 @@ const WorkSlider = () => {
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
-      className='h-[370px] sm:h-[520px]
+      className='h-[370px] sm:h-[520px]'
     >
       {workSlides.slides.map((slide , index) => (
         <SwiperSlide key={index}>

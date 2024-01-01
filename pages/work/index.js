@@ -41,7 +41,7 @@ I am engaged in projects that span various fields such as VLSI, computer network
           initial= 'hidden'
           animate='show'
           exit='hidden'
-          className='w-full xl:max-w-[65%]'
+          className='w-full xl:max-w-[65%] md:mb-20 xl:pr-36''
           >
             <WorkSlider/>
           </motion.div>

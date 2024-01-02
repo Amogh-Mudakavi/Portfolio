@@ -48,6 +48,11 @@
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
+    @media (min-width: 1200px) {
+    .xl\:bg-explosion {
+        background-image: url("../public/bg-explosion.png");
+    }
+}
 
 }
 

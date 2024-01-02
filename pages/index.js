@@ -7,7 +7,6 @@ import { fadeIn } from '../variants';
 import ParticlesContainer from "../components/ParticlesContainer";
 import b from "../public/bg-explosion.png";
 
-
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full md:pt-20 pt-5">

@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import { motion } from "framer-motion";
 import { fadeIn } from '../variants';
 import ParticlesContainer from "../components/ParticlesContainer";
-import ExplosionBackground from "../components/Background_explosion";
+import b from "../public/bg-explosion.png";
 
 
 const Home = () => {
@@ -59,10 +59,11 @@ const Home = () => {
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
 
         {/* bg-img */}
-       <div>
-        <ExplosionBackground/>
-        
-        </div>
+       <div className="bg-none xl:bgexplosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
+        <Image src = {b.src}
+            alt = ''
+            />
+    </div>
 
         {/* particles */}
         <ParticlesContainer/>

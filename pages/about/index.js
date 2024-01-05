@@ -228,7 +228,7 @@ const About = () => {
                 </div>
               );
             })}
-            <a href="https://drive.google.com/file/d/1kQEi7ENSV6G8Ktc3n4b9qUDXV2doUVVM/view?usp=sharing" target="_blank" download>
+            <a href="https://drive.google.com/file/d/1I6ASQbw3aTNaVwGlfqgoy3fyJ7PYuFEL/view?usp=sharing" target="_blank" download>
               <button className="bg-red-500 hover:bg-white hover:text-red-500 w-auto text-white px-9 py-2 shadow-md text-lg cursor-pointer transition-all duration-500 font-medium border-3 border-transparent relative z-10 mt-auto self-start  ">
                 Download CV
               </button>
